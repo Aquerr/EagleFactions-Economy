@@ -45,6 +45,7 @@ public class EagleFactionsEconomy
         {
             this.logger.error("EagleFactions not detected");
             disablePlugin();
+            return;
         }
 
         this.logger.info("Hey EagleFactions! Time for some faction economy! :)");
