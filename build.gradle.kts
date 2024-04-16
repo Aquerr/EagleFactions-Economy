@@ -46,7 +46,7 @@ sponge {
 }
 
 dependencies {
-    implementation("com.github.Aquerr:EagleFactionsAPI:v1.0.1")
+    compileOnly("com.github.Aquerr:EagleFactionsAPI:v1.0.1")
 }
 
 val javaTarget = 11
